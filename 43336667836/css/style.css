@@ -1,0 +1,1192 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Bold.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-BoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-UltraLightItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-UltraLightItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-UltraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-LightItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-LightItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-RegularItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-RegularItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Heavy.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Heavy.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-SemiBold.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-SemiBold.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-UltraLight.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-UltraLight.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-BlackItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-ExtraBold.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-ThinItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Thin.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Thin.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Light.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Light.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-HeavyItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-HeavyItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Medium.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Medium.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Black.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Black.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-SemiBoldItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-MediumItalic.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy/Gilroy-Heavy_1.woff2') format('woff2'),
+        url('../fonts/Gilroy/Gilroy-Heavy_1.woff') format('woff'),
+        url('../fonts/Gilroy/Gilroy-Heavy_1.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasDisplay/NeueHaasDisplay-XThin.woff2') format('woff2'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-XThin.woff') format('woff'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-XThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Light.woff2') format('woff2'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Light.woff') format('woff'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Roman.woff2') format('woff2'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Roman.woff') format('woff'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Roman.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Bold.woff') format('woff'),
+        url('../fonts/NeueHaasDisplay/NeueHaasDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    color: inherit;
+}
+
+html {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background: #F2F2F2;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;;
+}
+
+img {
+    user-select: none;
+    pointer-events: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gilroy', sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.onm-btn {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: .4px;
+    padding: 2rem 5rem;
+    color: #fff;
+    background: #DD7CAD;
+    border-radius: 2px;
+    transition: all .3s;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.onm-btn:hover,
+.onm-btn:active,
+.onm-btn:focus {
+    box-shadow: 0 0 20px #DD7CAD;
+}
+
+.hide-desktop {
+    display: none;
+}
+
+.onm-timer {
+    width: 100%;
+    font-weight: 100;
+    letter-spacing: 1px;
+    background: #58585899;
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    position: fixed;
+    user-select: none;
+    z-index: 20;
+}
+
+.onm-timer .contador {
+    width: min(120rem, 90%);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.onm-timer .contador-msg {
+    font-size: 1.9rem;
+    margin: 0;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 0 2rem;
+}
+
+.timer .count {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onm-timer .number {
+    font-size: 3.4rem;
+    line-height: 1;
+}
+
+.onm-timer .count-title {
+    font-size: 2.2rem;
+}
+
+.onm-hero {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.onm-hero-bg {
+    position: absolute;
+    width: min(1920px, 100%);
+    min-width: 1240px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.onm-hero-bg img {
+    width: 100%;
+}
+
+.onm-hero-wrap {
+    width: min(1180px, 90%);
+    margin: 0 auto;
+    position: relative;
+}
+
+.onm-hero-info {
+    width: min(58rem, 100%);
+    margin: 29rem 0 4rem;
+}
+
+.onm-hero-logo {
+    width: min(380px, 100%);
+}
+
+.onm-hero h1 {
+    font-size: 4.7rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 3rem 0 1rem;
+    color: #F8DEE9;
+}
+
+.onm-hero p {
+    width: min(52rem, 100%);
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin: 1rem 0 2rem;
+    color: #fff;
+}
+
+.onm-video {
+    margin: -6rem auto 0;
+}
+
+.onm-video-wrap {
+    width: min(820px, 90%);
+    margin: 0 auto;
+}
+
+.onm-video-wrap {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.onm-video-player {
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    cursor: pointer;
+}
+
+.onm-video iframe {
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.onm-video img {
+    width: 100%;
+}
+
+.onm-video h2 {
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 1rem 0;
+    color: #2A3392;
+}
+
+.onm-video p {
+    width: min(685px, 100%);
+    margin: 0 auto;
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 4.2rem;
+    letter-spacing: 0.02em;
+    color: #9B9B9B;
+}
+
+.onm-video p:last-of-type {
+    font-size: 2.2rem;
+}
+
+.onm-video .onm-btn {
+    width: min(350px, 100%);
+    margin: 2rem auto 1rem;
+    background: #2B5AD3;
+}
+
+.onm-video .onm-btn:hover,
+.onm-video .onm-btn:active,
+.onm-video .onm-btn:focus {
+    box-shadow: 0 0 20px #2B5AD3;
+}
+
+.onm-livro {
+    overflow: hidden;
+    padding: 0 0 26rem;
+}
+
+.onm-livro-wrap {
+    width: min(115rem, 90%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.onm-livro-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 15rem;
+}
+
+.onm-livro-row:last-of-type {
+    display: flex;
+    align-items: center;
+    margin-top: 35rem;
+}
+
+.onm-livro-row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.onm-livro-img1 {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.onm-livro-img1 img {
+    position: absolute;
+    width: 815px;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.onm-livro-img2 {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.onm-livro-img2 img {
+    position: absolute;
+    width: 652px;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.onm-livro-info {
+    width: min(46.5rem, 100%);
+    flex-shrink: 0;
+}
+
+.onm-livro h2 {
+    font-size: 5.4rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0 0 3rem;
+    color: #1D288D;
+}
+
+.onm-livro p {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    color: #484848;
+}
+
+.onm-convidado{
+    width: min(106.2rem, 90%);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.onm-convidado-img img {
+    width: 100%;
+}
+
+.onm-convidado-info {
+    width: min(52rem, 100%);
+}
+
+.onm-convidado h2 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 58px;
+    padding: 0 0 1rem;
+    color: #DD7CAD;
+}
+
+.onm-convidado p {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    color: #484848;
+}
+
+.onm-galeria {
+    background: linear-gradient(#f2f2f2, #d7d7d7);
+}
+
+.onm-galeria-wrap {
+    width: min(124rem, 90%);
+    margin: 0 auto;
+    padding: 10rem 0 4rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.onm-galeria-info {
+    width: min(49.2rem, 90%);
+    flex-shrink: 0;
+    padding: 22rem 0 0;
+}
+
+.onm-galeria h2 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: #AF6289;
+}
+
+.onm-galeria p {
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #6C6C6C;
+}
+
+.onm-galeria-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    margin-bottom: -27rem;
+}
+
+.onm-galeria img {
+    width: min(35rem, 46%);
+}
+
+.onm-cursos {
+    overflow: hidden;
+}
+
+.onm-cursos-wrap {
+    width: min(109rem, 90%);
+    margin: 32rem auto 0;
+}
+
+.onm-cursos-info {
+    width: min(70rem, 100%);
+    margin: 0 auto 5rem;
+    text-align: center;
+}
+
+.onm-cursos h2 {
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    color: #2A3392;
+}
+
+.onm-cursos p {
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #4B4B4B;
+}
+
+.onm-cursos-slide {
+    position: relative;
+}
+
+.onm-cursos-card {
+    margin: 0 auto;
+    padding: 3rem 3.4rem 5.8rem 3rem;
+    text-align: left;
+    border: 1px solid #9B9B9B;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.onm-cursos-slide .owl-carousel .owl-item img {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.onm-cursos-card h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 2rem 0 1rem;
+    color: #7A7A7A;
+}
+
+.onm-cursos-card p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.6px;
+    color: #7D7D7D;
+}
+
+.onm-cursos-slide-controle {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    position: absolute;
+    top: 50%;
+    right: -6rem;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.onm-cursos-slide-controle-wrap {
+    padding: 2rem;
+    z-index: 2;
+}
+
+.onm-cursos-slide-controle-wrap {
+    cursor: pointer
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 4rem !important;
+}
+
+.owl-theme .owl-dots .owl-dot span,
+.owl-theme .owl-dots .owl-dot span {
+    width: 90px !important;
+    height: 2px !important;
+    margin: 5px 0 !important;
+    background: #CACACA !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #DD7CAD !important;
+}
+
+.onm-cta {
+    width: min(35rem, 90%);
+    margin: 10rem auto 0;
+    text-align: center;
+}
+
+.onm-cta-old {
+    font-size: 6.4rem;
+    font-weight: 600;
+    line-height: 92%;
+    color: #B4B4B4;
+    position: relative;
+    display: inline-block;
+}
+
+.onm-cta-old::before {
+    position: absolute;
+    content: '';
+    width: calc(100% + 30px);
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #CC2C22;
+}
+
+.onm-cta-new {
+    font-size: 12rem;
+    font-weight: 600;
+    line-height: 100%;
+    color: #5071D7;
+    display: flex;
+    justify-content: center;
+}
+
+.onm-cta-new span {
+    font-size: 3.2rem;
+    line-height: 1.8;
+}
+
+.onm-cta .onm-btn {
+    width: 100%;
+}
+
+.onm-cta img {
+    width: min(296px, 90%);
+    margin: 3rem 0 1rem;
+}
+
+.onm-cta-frete {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #000;
+}
+
+.onm-dep-slide {
+    width: min(110rem, 90%);
+    margin: 0 auto;
+    padding: 10rem 0;
+}
+
+.onm-dep-card {
+    text-align: center;
+    padding: 5rem 3rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #EEEEEE 0%, #F9F9F9 100%);
+}
+
+.onm-dep-slide .owl-carousel .owl-item img {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+}
+
+.onm-dep-card h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 2rem 0 0;
+    color: #1C1C1C;
+}
+
+.onm-dep-card p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    color: #585757;
+}
+
+.onm-dep-card p:last-of-type {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.onm-faq {
+    width: min(80rem, 90%);
+    margin: 0 auto 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.onm-faq h2 {
+    width: min(21.8rem, 100%);
+    font-size: 4.4rem;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2A3392;
+    margin: 0 0 2rem;
+}
+
+.onm-faq-box {
+    padding: 3.2rem 3.2rem 2.6rem 0;
+    margin-bottom: 2.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .4rem;
+    cursor: pointer;
+    transition: all ease .3s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.onm-faq-box:hover,
+.onm-faq-box:active,
+.onm-faq-box:focus {
+    cursor: pointer;
+}
+
+.onm-faq input {
+    display: none;
+}
+
+.onm-faq label {
+    width: 100%;
+}
+
+.onm-faq-pergunta {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    display: inline-block;
+    width: 86%;
+    margin: 0;
+    color: #2A3392;
+}
+
+.onm-faq-resposta {
+    margin: 0;
+    opacity: 0;
+    transform: scale(1, 0);
+    transform-origin: top;
+    transition: all ease .8s;
+}
+
+input:checked~.onm-faq-resposta {
+    margin: 2.5rem 0 0;
+    opacity: .8;
+    transform: scale(1);
+}
+
+.onm-faq-box img {
+    transition: all ease .6s;
+    cursor: pointer;
+}
+
+input:checked~img {
+    transform: rotate(180deg);
+}
+
+.onm-faq p {
+    margin: 0;
+    line-height: 0px;
+    font-size: 1.6rem;
+    color: #2A3392;
+    transition: all ease .8s;
+}
+
+input:checked~.onm-faq-resposta p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    opacity: .8;
+    padding-bottom: 2rem;
+}
+
+input:checked~.onm-faq-resposta p:last-child {
+    padding-bottom: 0;
+}
+
+.onm-footer {
+    width: min(1230px, 90%);
+    margin: 0 auto;
+    padding: 5rem 0 8rem;
+    border-top: 1px solid #D6D6D6;
+    text-align: center;
+}
+
+.onm-popup {
+    width: 100vw;
+    height: 100vh;
+    background: #000c;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 30;
+    display: none;
+}
+
+.onm-popup-wrap {
+    width: min(82rem, 90%);
+    height: min(450px, 90%);
+    margin: 10rem auto;
+    padding: 6rem 1rem 7rem;
+    text-align: center;
+    border-radius: 10px;
+    background: #1D288D;
+    z-index: 100;
+    position: relative;
+}
+
+.onm-popup-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.onm-popup-close::before {
+    position: absolute;
+    width: 90%;
+    height: 2px;
+    background: #fff;
+    top: 1rem;
+    right: 1rem;
+}
+
+.onm-popup h2 {
+    width: min(48rem, 90%);
+    margin: 0 auto 2rem;
+    font-size: 4.2rem;
+    line-height: 1.1;
+    color: #fff;
+}
+
+.onm-popup form {
+    width: min(48rem, 90%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.onm-popup input[type=text],
+.onm-popup input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1rem 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+  padding: 1.4rem 2rem;
+  margin: 1rem 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* --------- MEDIA: Small computers and lower --------- */
+
+@media screen and (max-width: 1279px) {
+    html {
+        font-size: 9px;
+    }
+    .onm-video {
+        margin: 4rem auto 0;
+    }
+}
+
+
+/* --------- MEDIA: Tablets and lower --------- */
+
+@media screen and (max-width: 991px) {
+    html {
+        font-size: 8px;
+    }    
+    .onm-galeria-wrap {
+        padding: 0 0 4rem;
+        text-align: center;
+        flex-direction: column;
+    }
+    .onm-galeria-info {
+        margin: 0 auto;
+        padding: 4rem 0 0;
+    }
+    .onm-galeria-imgs {
+        margin-bottom: -46rem;
+        justify-content: center;
+    }
+    .onm-galeria-imgs img {
+        width: min(35rem, 48%);
+    }
+    .onm-cursos-wrap {
+        margin: 46rem auto 0;
+        justify-content: space-around;
+    }
+    .onm-cursos-slide-controle {
+        display: none;
+    }
+}
+
+
+/* --------- MEDIA: Smartphones and lower --------- */
+
+@media screen and (max-width: 767px) {
+    .hide-desktop {
+        display: inline;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .onm-btn {
+        width: 100%;
+    }
+    .onm-timer {
+        background: #31313166;
+    }
+    .onm-timer .contador {
+        flex-direction: column;
+        border-radius: 0;
+        gap: 1rem;
+    }
+    .onm-timer .count-title {
+        font-size: 1.8rem;
+    }
+    .onm-hero {
+        padding: 0;
+        height: initial;
+    }
+    .onm-hero-bg {
+        width: min(414px, 100%);
+        min-width: 414px;
+    }
+    .onm-hero-info {
+        margin: 60rem auto 4rem;
+        text-align: center;
+    }
+    .onm-hero h1 {
+        font-size: 3.6rem;
+        color: #2A3392;
+    }
+    .onm-hero p,
+    .onm-video p {
+        font-size: 2.2rem;
+        line-height: 1.5;
+        color: #9B9B9B;
+    }
+    .onm-video h2 {
+        font-size: 4rem;
+    }
+    .onm-video .onm-btn {
+        background: #DD7CAD;
+    }
+    .onm-video .onm-btn:hover,
+    .onm-video .onm-btn:active,
+    .onm-video .onm-btn:focus {
+        box-shadow: 0 0 20px #dd7cad;
+    }
+    .onm-livro {
+        padding: 0 0 6rem;
+    }
+    .onm-livro-row,
+    .onm-livro-row:nth-child(even) {
+        margin-top: 4rem;
+        flex-direction: column;
+        gap: 0;
+    }
+    .onm-livro-img1 img,
+    .onm-livro-img2 img {
+        position: relative;
+        width: 100%;
+        transform: translateY(0);
+    }
+    .onm-livro h2 {
+        font-size: 4rem;
+    }
+    .onm-convidado {
+        width: 100%;
+        flex-direction: column;
+    }
+    .onm-convidado-info {
+        width: min(52rem, 90%);
+        margin-top: -14rem;
+        padding: 4rem 1rem;
+        text-align: center;
+        border-radius: 7px;
+        background: #f2f2f2;
+    }
+    .onm-convidado h2 {
+        font-size: 46px;
+        font-weight: bold;
+        line-height: 1.2;
+    }
+    .onm-convidado p {
+        font-size: 22px;
+    }
+    .onm-galeria h2 {
+        font-size: 3.6rem;
+    }
+    .onm-galeria p {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .onm-cursos h2 {
+        font-size: 3.6rem;
+        line-height: 1.2;
+    }
+    .onm-cursos p {
+        font-size: 20px;
+    }
+    .owl-theme .owl-dots .owl-dot span,
+    .owl-theme .owl-dots .owl-dot span {
+        width: 30px !important;
+    }
+    .onm-dep-card {
+        border: 1px solid #D2D2D2;
+    }
+    .onm-faq-box {
+        padding: 3.2rem 0 2.6rem;
+    }
+}
